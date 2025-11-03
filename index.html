@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabila - Portofolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="assets/bila5.jpg"  >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body class="font-sans">
+    <!--ini navbar sama header  -->
+<nav class="sticky backdrop-blur-xl shadow-lg py-4 md:px-40 sm:px-8 px-6 z-50 top-0 left-0 right-0 "> 
+        <div class="flex justify-between items-center">
+            <!-- header -->
+            <div>
+              <h3 class="font-bold bg-gradient-to-b from-red-300 to-pink-200 text-transparent bg-clip-text selection:text-black selection:bg-red-300">
+                Sabila Putri
+              </h3>
+            </div>
+            <!-- tombol show menu mobile -->
+            <button id="menu-btn" class="block md:hidden text-gray-600 focus:outline-none text-2xl">
+              <i class="fas fa-bars"></i>
+            </button>
+            <!-- menu -->
+            <div class="hidden md:flex gap-5 selection:text-black selection:bg-red-300 ">
+                <a href="#about" class="font-medium hover:underline hover:bg-gradient-to-b 
+                hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+                hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">About</a>
+                <a href="#skills" class="font-medium hover:underline hover: bg-gradient-to-b 
+                hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+                hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">Skills</a>
+                <a href="#experience" class="font-medium hover:underline hover: bg-gradient-to-b 
+                hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+                hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">Experience</a>
+                <a href="#galeri" class="font-medium hover:underline hover: bg-gradient-to-b 
+                hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+                hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">Galeri</a>
+                <a href="#footer" class="font-medium hover:underline hover: bg-gradient-to-b 
+                hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+                hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">Footer</a>
+            </div>
+        </div>
+        <!-- menu buat mobile -->
+            <div id="mobile-menu" class="hidden  flex-col mt-4 space-y-2 md:hidden text-gray-500 font-medium">
+            <p><a href="#about" class="font-medium hover:underline hover: bg-gradient-to-b 
+               hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+                hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">About</a>
+            </p>
+            <p><a href="#skills" class="font-medium hover:underline hover: bg-gradient-to-b 
+               hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+                hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">Skills</a>
+            </p>
+            <p><a href="#experience" class="font-medium hover:underline hover: bg-gradient-to-b 
+               hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+                hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">Experience</a>
+            </p>
+            <p><a href="#galeri" class="font-medium hover:underline hover: bg-gradient-to-b 
+               hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+                hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">Galeri</a>
+            </p>
+            <p><a href="#footer" class="font-medium hover:underline hover: bg-gradient-to-b 
+               hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+                 hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">Footer</a>
+            </p>
+          </div>
+</nav>
+
+<!-- ini about -->
+<section id="about" class="mt-16 mx-20 flex flex-col md:flex-row items-center justify-center gap-12 fade-in">
+  <!-- foto -->
+    <div class="">
+      <img src="assets/bila1.png" class=" selection:bg-red-300 w-60 h-60 cursor-pointer hover:shadow-red-300 hover:scale-105 transition-all shadow-lg duration-300 rounded-full">
+    </div>
+  <!-- deskripsi -->
+    <div class="max-w-xl flex flex-col items-center md:items-start text-center md:text-left selection:text-black selection:bg-red-300">
+      <h3 class="text-gray-500 text-lg mb-2">Haloo!  </h3>
+      <h1 class="text-4xl font-bold mb-4">I'm <span class="bg-gradient-to-b from-red-300 to-pink-200 bg-clip-text text-transparent">Dwi Sal Sabila Putri Ramadhani</span></h1>
+      <p class="text-gray-600 mb-6">
+        Saya adalah seorang mahasiswa <span class="font-bold selection:text-black selection:bg-red-300 cursor-pointer  bg-gradient-to-b from-red-300 to-pink-200 bg-clip-text text-transparent"> Program Studi Informatika</span> <span class="font-medium">Universitas Bhineka PGRI </span> yang terdorong oleh minat kuat terhadap teknologi dan inovasi. Saya berkomitmen untuk terus mengembangkan kemampuan serta berkontribusi dalam menciptakan solusi yang bermanfaat di bidang teknologi informasi. 
+      </p>
+      <!-- menu link -->
+      <div class="flex gap-4 mb-6">
+        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-pink-100 text-red-300 hover:bg-red-300 hover:text-white transition hover:scale-105"> 
+          <i class="fab fa-tiktok"></i> 
+        </a>
+        <a href="https://wa.me/6285706004162" class="w-10 h-10 flex items-center justify-center rounded-full bg-pink-100 text-red-300 hover:bg-red-300 hover:text-white transition hover:scale-105"> 
+          <i class="fa-brands fa-whatsapp"></i> 
+        </a>
+        <a href="https://www.instagram.com/ssabwela" class="w-10 h-10 flex items-center justify-center rounded-full bg-pink-100 text-red-300 hover:bg-red-300 hover:text-white transition hover:scale-105"> 
+          <i class="fa-brands fa-instagram"></i> 
+        </a>
+      </div>
+      <p class="mt-6 ">
+        <a href="#" class="bg-red-300 rounded-xl font-medium hover:bg-white hover:border-red-300 hover:border  hover:text-red-300 hover:scale-105 transition text-white p-3">Download CV</a>
+      </p>
+    </div>
+</section>
+
+<!-- ini skills -->
+<section id="skills" class="mt-24 bg-red-300 px-12 py-5 ">
+    <h1 class="mb-14 font-bold text-3xl text-center text-white mt-8 selection:text-black selection:bg-red-300 ">Skills</h1>
+<!-- menggunakan flex -->
+    <div class="flex gap-20 flex-wrap max-w-screen-lg mx-auto mb-10 justify-center items-center selection:bg-red-300">
+      <div class="group shadow-lg bg-white  w-32 h-32 hover:scale-105 transition rounded-lg flex items-center justify-center">
+        <img src="assets/html.png" class="w-20 h-20 object-contain" alt="">
+      </div>
+      <div class="group shadow-lg  bg-white w-32 h-32 hover:scale-105 transition rounded-lg flex items-center justify-center">
+        <img src="assets/css.png" class="w-20 h-20 object-contain" alt="">
+      </div>
+      <div class="group shadow-lg bg-white w-32 h-32 hover:scale-105 transition rounded-lg flex items-center justify-center">
+        <img src="assets/js.png" class="w-16 h-20 object-contain" alt="">
+      </div>
+      <div class="group shadow-lg bg-white w-32 h-32 hover:scale-105 transition rounded-lg flex items-center justify-center">
+        <img src="assets/php.png" class="w-28 h-28  object-contain" alt="">
+      </div>
+      <div class="group shadow-lg bg-white w-32 h-32 hover:scale-105 transition rounded-lg flex items-center justify-center">
+        <img src="assets/boostrap.png" class="w-24 h-24 object-contain" alt="">
+      </div>
+      </div>
+      <div class="flex flex-wrap gap-20 justify-center items-center selection:bg-red-300 mb-10 ">
+      <div class="group shadow-lg bg-white w-32 h-32 hover:scale-105 transition rounded-lg flex items-center justify-center">
+        <img src="assets/mysql.png" class="w-20 h-20 object-contain" alt="">
+      </div>
+      <div class="group shadow-lg bg-white w-32 h-32 hover:scale-105 transition rounded-lg flex items-center justify-center">
+        <img src="assets/canva.jpeg" class="w-20 h-20 object-contain rounded-lg" alt="">
+      </div>
+      <div class="group shadow-lg bg-white w-32 h-32 hover:scale-105 transition rounded-lg flex items-center justify-center">
+        <img src="assets/xampp.png" class="w-20 h-20 object-contain" alt="">
+      </div>
+      <div class="group shadow-lg bg-white w-32 h-32 hover:scale-105 transition rounded-lg flex items-center justify-center">
+        <img src="assets/word.png" class="w-20 h-20 object-contain" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ini experience -->
+<section id="experience" class="mt-16 px-6 md:px-16 pb-10 selection:text-black selection:bg-red-300">
+    <h1 class="text-3xl font-bold text-center mb-10">Experience</h1>
+    <div class="space-y-10 max-w-3xl mx-auto">
+      <div class="border-l-4 border-red-300 pl-6">
+        <h2 class="font-medium mb-2">2023 | PKL - CEFIN NET (Pemasangan WiFi)</h2>
+        <ul class=" ml-5 text-gray-600 space-y-2">
+          <li>Mengoperasikan Winbox Mikrotik untuk konfigurasi jaringan.</li>
+          <li>Pemotongan & penyambungan kabel Fiber Optik & UTP.</li>
+          <li>Pemasangan kabel UTP ke RJL dan pengujian koneksi.</li>
+          <li>Perawatan jaringan internet.</li>
+          <li>Troubleshooting langsung di lapangan.</li>
+        </ul>
+      </div>
+
+      <div class="border-r-4 border-red-300 pr-6 text-right">
+        <h2 class="font-medium mb-2">2025 | Proyek Pengembangan Web (Mandiri)</h2>
+        <ul class="ml-5 text-gray-600 space-y-2 text-right ">
+          <li>Membangun sistem CRUD dengan PHP & MySQL.</li>
+          <li>Membuat desain UI responsif menggunakan CSS.</li>
+          <li>Menerapkan struktur database efisien untuk data dinamis.</li>
+          <li>Testing dan debugging aplikasi.</li>
+        </ul>
+      </div>
+
+      <div class="border-l-4 border-red-300 pl-6">
+        <h2 class="font-medium mb-2">2022-2024 | Jurnalistik & Multimedia</h2>
+        <ul class="ml-5 text-gray-600 space-y-2">
+          <li>Mengelola dokumentasi kegiatan sekolah.</li>
+          <li>Membuat konten visual untuk publikasi.</li>
+          <li>Mengedit video dan foto dengan Canva dan CapCut.</li>
+        </ul>
+      </div>
+    </div>
+</section>
+   
+<!-- ini galeri -->
+<section id="galeri" class="mt-16 p-4 selection:bg-red-300 selection:text-black">
+    <h1 class="text-3xl font-bold text-center mb-10">Galeri</h1>
+   <!-- menggunakan grid -->
+  <div class=" grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-6 w-full max-w-7xl mx-auto">
+  <div class="overflow-hidden group relative hover:scale-95 transition-all duration-200 bg-red-300 hover:shadow-lg hover:shadow-red-300 aspect-square rounded-lg md:col-start-1 md:row-start-3">
+    <img src="assets/bila.jpg"
+      class=" w-full h-full object-cover group-hover:scale-125 group-hover:rotate-12 transition duration-500"
+      alt="">
+  </div>
+  <div class="overflow-hidden group relative hover:scale-95 transition-all duration-200 bg-red-300 hover:shadow-lg hover:shadow-red-300 aspect-square rounded-lg md:col-start-3 md:row-start-2">
+    <img src="assets/bila2.jpg"
+      class="absolute w-full h-full object-cover group-hover:scale-125 group-hover:rotate-12 transition duration-500"
+      alt="">
+  </div>
+  <div class="overflow-hidden group relative hover:scale-95 transition-all duration-200 bg-red-300 hover:shadow-lg hover:shadow-red-300 aspect-square rounded-lg md:col-start-2 md:row-start-1">
+    <img src="assets/bila3.jpg"
+      class="absolute w-full h-full object-cover group-hover:scale-125 group-hover:rotate-12 transition duration-500"
+      alt="">
+  </div>
+  <div class="overflow-hidden group relative hover:scale-95 transition-all duration-200 bg-red-300 hover:shadow-lg hover:shadow-red-300 aspect-square rounded-lg md:col-start-4 md:row-start-3">
+    <img src="assets/bila4.jpg"
+      class="absolute w-full h-full object-cover group-hover:scale-125 group-hover:rotate-12 transition duration-500"
+      alt="">
+  </div>
+  <div class="overflow-hidden group relative hover:scale-95 transition-all duration-200 bg-red-300 hover:shadow-lg hover:shadow-red-300 aspect-square rounded-lg md:col-start-1 md:row-start-2">
+    <img src="assets/bila5.jpg"
+      class="absolute w-full h-full object-cover group-hover:scale-125 group-hover:rotate-12 transition duration-500"
+      alt="">
+  </div>
+  <div class="overflow-hidden group relative hover:scale-95 transition-all duration-200 bg-red-300 hover:shadow-lg hover:shadow-red-300 aspect-square rounded-lg md:col-start-2 md:row-start-3">
+    <img src="assets/bila6.jpg"
+      class="absolute w-full h-full object-cover group-hover:scale-125 group-hover:rotate-12 transition duration-500"
+      alt="">
+  </div>
+  <div class="overflow-hidden group relative hover:scale-95 transition-all duration-200 bg-red-300 hover:shadow-lg hover:shadow-red-300 aspect-square rounded-lg md:col-start-4 md:row-start-1">
+    <img src="assets/bila7.jpg"
+      class="absolute w-full h-full object-cover group-hover:scale-125 group-hover:rotate-12 transition duration-500"
+      alt="">
+  </div>
+</div>
+</section>
+
+<!-- footer -->
+<section id="footer" class="bg-gray-100  mt-24 p-5 selection:text-black selection:bg-red-300 ">
+  <h1 class="text-center text-3xl font-bold mb-7">Footer</h1>
+  <div class="mx-20 flex gap-16 items-start md:justify-between justify-center
+   border-b-2 pb-4">
+    <h1 class="text-2xl font-bold bg-gradient-to-b from-red-300 to-pink-200 text-transparent bg-clip-text">Sabila Putri</h1>
+    <div class="flex flex-col">
+      <p class="font-bold text-gray-700 ">Biodata </p>
+      <p class="font-bold text-gray-600">Name : <span class="text-gray-500   font-medium">Dwi Sal Sabila Putri Ramadhani</span></p>
+      <p class="font-bold text-gray-600">Npm : <span class="text-gray-500  font-medium">24161562006</span></p>
+    </div>
+    <div class=" flex flex-col  selection:text-black selection:bg-red-300 ">
+      <p class="font-bold text-gray-700 ">Fast link  </p>
+          <a href="#about" class="font-medium hover:underline hover: bg-gradient-to-b 
+          hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+            hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">About</a>
+          <a href="#skills" class="font-medium hover:underline hover: bg-gradient-to-b 
+           hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+            hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">Skills</a>
+          <a href="#experience" class="font-medium hover:underline hover: bg-gradient-to-b 
+           hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+            hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">Experience</a>
+          <a href="#galeri" class="font-medium hover:underline hover: bg-gradient-to-b 
+           hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+            hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">Galeri</a>
+          <a href="#contact" class="font-medium hover:underline hover: bg-gradient-to-b 
+           hover:from-red-300 hover:to-pink-200 hover:text-transparent 
+            hover:bg-clip-text transition-all hover:decoration-pink-200 text-gray-500">Contact</a>
+    </div>
+  </div>
+  <div class="flex gap-16 mb-6 justify-center mt-8 ">
+        <a href="mailto:dwisalsabilaputri95@gmail.com 
+" class="w-10 h-10 flex items-center justify-center rounded-full bg-pink-100 text-red-300 hover:bg-red-300 hover:text-white transition hover:scale-105"> 
+          <i class="fa-solid fa-envelope"></i> 
+        </a>
+        <a href="https://wa.me/6285706004162" class="w-10 h-10 flex items-center justify-center rounded-full bg-pink-100 text-red-300 hover:bg-red-300 hover:text-white transition hover:scale-105"> 
+          <i class="fa-brands fa-whatsapp"></i> 
+        </a>
+        <a href="https://www.instagram.com/ssabwela" class="w-10 h-10 flex items-center justify-center rounded-full bg-pink-100 text-red-300 hover:bg-red-300 hover:text-white transition hover:scale-105"> 
+          <i class="fa-brands fa-instagram"></i> 
+        </a>
+      </div>
+</section>
+
+<script>
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+</body>
+</html>
